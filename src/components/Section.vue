@@ -1,7 +1,7 @@
 <template>
-    <section class="py-6 shadow-[0_-10px_10px_rgba(0,0,0,0.2)] bg-slate-50 bg-bg bg-contain lg:bg-auto" :class="{ 'bg-slate-700': black, 'shadow-[0_-10px_10px_rgba(0,0,0,0.5)]': !title }" :aria-labelledby="idTitle">
-        <div class="sticky top-0 p-0 bg-slate-50" :class="{ 'bg-slate-700': black }" v-if="title">
-            <h2 :id="idTitle" class="max-w-screen-2xl mx-auto py-6 before:content-['#'] text-4xl font-bold tracking-widest">{{ title }}</h2>
+    <section class="p-6 pb-32 shadow-[0_-10px_10px_rgba(0,0,0,0.2)] bg-bg bg-contain lg:bg-auto" :class="{ 'bg-slate-700': black, 'bg-slate-100': !black, 'shadow-[0_-10px_10px_rgba(0,0,0,0.5)]': !title }" :aria-labelledby="idTitle">
+        <div class="sticky top-0 p-0" :class="{ 'bg-slate-700': black, 'bg-slate-100': !black, 'sr-only': init }">
+            <h2 :id="idTitle" class="max-w-screen-2xl mx-auto py-6 before:content-['#'] text-4xl font-bold tracking-widest" :class="{ 'text-slate-100': black }">{{ title }}</h2>
         </div>
         <div class="max-w-screen-2xl mx-auto">
             <slot />
@@ -15,7 +15,8 @@
     export default {
         props: {
             title: String,
-            black: Boolean
+            black: Boolean,
+            init: Boolean
         },
         data() {
             return {
