@@ -2,7 +2,7 @@
     <div class="mb-5 last:mb-0" :aria-labelledby="id">
         <h3 :id="id" class="text-xl font-bold flex">
             <span class="block w-8 text-center">{{ icon }}</span>
-            {{ q }}
+            {{ question }}
         </h3>
         <div class="mt-1 ml-8 leading-relaxed">
             <slot />
@@ -11,11 +11,11 @@
 </template>
 
 <script lang="ts">
-    import * as _ from "lodash";
+    import * as _ from "lodash"
 
     export default {
         props: {
-            q: String,
+            question: String,
             icon: String
         },
         data() {

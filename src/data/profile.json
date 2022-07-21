@@ -1,0 +1,69 @@
+{
+    "profile": {
+        "name": "유호건",
+        "company": "자유로운 개발자",
+        "email": "me@youhogeon.com",
+        "phone": "010-2131-1470"
+    },
+    "information": [
+        {
+            "icon": "👦🏻",
+            "question": "이름",
+            "answer": "유호건 (YouHoGeon)"
+        },
+        {
+            "icon": "♂️",
+            "question": "성별",
+            "answer": "남성"
+        },
+        {
+            "icon": "🎂",
+            "question": "생년월일",
+            "answer": "1997년 10월 2일"
+        },
+        {
+            "icon": "🏠",
+            "question": "거주지",
+            "answer": "서울특별시 성북구"
+        },
+        {
+            "icon": "💙",
+            "question": "관심분야",
+            "answer": "웹, IT, 공학, 수학, 경제(금융)"
+        }
+    ],
+    "technology": [
+        [
+            "HTML5, CSS3",
+            "Javascript (ES6), jQuery",
+            "Vue.js"
+        ],
+        [
+            "PHP, Laravel",
+            "Node.js",
+            "Java, Spring"
+        ],
+        [
+            "SQL (Mysql, MariaDB)",
+            "No-SQL (MongoDB, Redis)"
+        ],
+        [
+            "Server (Windows, Linux)",
+            "Cloud Architecture (AWS)",
+            "Docker"
+        ]
+    ],
+    "certificate": [
+        [
+            "AWS Certified Solutions Architect Associate (2022.07)",
+            "정보기기운용기능사 (2019.05)",
+            "정보처리기능사 (2017. 12)",
+            "워드프로세서 (2019.03)",
+            "컴퓨터활용능력 1급 (2017.02)"
+        ],
+        [
+            "자동차운전면허증 (1종대형, 특수 소형견인, 2종보통)",
+            "한국사능력검정시험 1급"
+        ]
+    ]
+}
