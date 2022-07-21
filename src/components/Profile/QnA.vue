@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-5 last:mb-0" :aria-labelledby="id">
+    <div :aria-labelledby="id">
         <h3 :id="id" class="text-xl font-bold flex">
             <span class="block w-8 text-center">{{ icon }}</span>
             {{ question }}
