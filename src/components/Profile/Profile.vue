@@ -1,5 +1,5 @@
 <template>
-    <Section class="pt-32" :title="profileData.profile.name + ' 소개글'" init>
+    <Section title="소개">
         <Cards class="flex-col lg:flex-row">
             <Card class="flex flex-col basis-1/4" aria-label="명함 형식의 프로필">
                 <div class="flex md:flex-col md:items-center justify-around">
@@ -17,27 +17,17 @@
                 </div>
             </Card>
 
-            <Card class="basis-3/4 grid grid-rows-3 md:grid-cols-3 md:grid-rows-1">
-                <div class="mt-0">
-                    <QnA v-for="info in profileData.information" :key="info.question" :icon="info.icon" :question="info.question">
+            <Card class="basis-3/4 flex flex-col md:flex-row">
+                <div class="mt-0 md:mt-0 basis-1/3" v-for="(column, i) in profileData.information" :key="i">
+                    <QnA :icon="column.icon" :question="column.question" v-if="column.question">
+                        <div v-for="(field, j) in column.data" :key="j">
+                            <hr class="my-2" v-if="j > 0">
+                            <div v-for="(stack, k) in field" :key="k">{{ stack }}</div>
+                        </div>
+                    </QnA>
+                    <QnA v-for="info in column.data" :key="info.question" :icon="info.icon" :question="info.question" v-else>
                         {{ info.answer }}
                     </Qna>
-                </div>
-                <div class="mt-5 md:mt-0">
-                    <QnA icon="🖥️" question="기술 스택">
-                        <div v-for="(field, i) in profileData.technology" :key="i">
-                            <hr class="my-2" v-if="i > 0">
-                            <div v-for="(stack, j) in field" :key="j">{{ stack }}</div>
-                        </div>
-                    </QnA>
-                </div>
-                <div class="mt-5 md:mt-0">
-                    <QnA icon="⭐" question="자격증">
-                        <div v-for="(field, i) in profileData.certificate" :key="i">
-                            <hr class="my-2" v-if="i > 0">
-                            <div v-for="(stack, j) in field" :key="j">{{ stack }}</div>
-                        </div>
-                    </QnA>
                 </div>
             </Card>
         </Cards>
