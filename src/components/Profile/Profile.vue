@@ -6,7 +6,7 @@
         </Cards>
 
         <Cards>
-            <TimeLine class="mt-8" />
+            <TimeLine class="mt-8 hover:mt-7" />
         </Cards>
     </Section>
 </template>
@@ -19,7 +19,6 @@
     import TimeLine from './TimeLine.vue'
 
     export default {
-        inject: ['profileData'],
         components: {
             Section,
             Cards,

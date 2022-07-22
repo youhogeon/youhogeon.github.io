@@ -11,6 +11,9 @@ module.exports = {
       },
       fontFamily: {
         'sans': ['Nanum Gothic'],
+      },
+      transitionProperty: {
+        'size': 'width, height, margin, padding, border-radius, opacity',
       }
     },
   },

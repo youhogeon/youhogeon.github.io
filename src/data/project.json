@@ -1,0 +1,95 @@
+{
+    "projects": [
+        {
+            "name": "커뮤니티 사이트",
+            "date": "2010 ~",
+            "description": "",
+            "image": "project1.png",
+            "url": ["http://cloverworld.net"]
+        },
+        {
+            "name": "단축 주소(Short URL) 허브",
+            "date": "2010 ~ 2014",
+            "description": "",
+            "image": "project2.png",
+            "url": []
+        },
+        {
+            "name": "유튜브 플레이리스트",
+            "date": "2012",
+            "description": "",
+            "image": "project3.png",
+            "url": []
+        },
+        {
+            "name": "모의 주식투자",
+            "date": "2012 ~ 2014",
+            "description": "",
+            "image": "project4.png",
+            "url": []
+        },
+        {
+            "name": "국민대학교 법률상담 시스템",
+            "date": "2016",
+            "description": "",
+            "image": "project5.png",
+            "url": []
+        },
+        {
+            "name": "L사 공장장비관리 App",
+            "date": "2016",
+            "description": "",
+            "image": "project6.png",
+            "url": []
+        },
+        {
+            "name": "JJAL.DOWNLOAD",
+            "date": "2016",
+            "description": "",
+            "image": "project7.png",
+            "url": []
+        },
+        {
+            "name": "딥러닝을 활용한 로보어드바이저",
+            "date": "2020",
+            "description": "",
+            "image": "project8.png",
+            "url": []
+        },
+        {
+            "name": "주식회사 리무빙컴퍼니",
+            "date": "2020 ~ 2021",
+            "description": "",
+            "image": "project9.png",
+            "url": []
+        },
+        {
+            "name": "T연예기획사 서비스",
+            "date": "2021",
+            "description": "",
+            "image": "project10.png",
+            "url": []
+        },
+        {
+            "name": "U사 회원관리 서비스",
+            "date": "2021",
+            "description": "",
+            "image": "project11.png",
+            "url": []
+        },
+        {
+            "name": "L사 연구장비 제어시스템",
+            "date": "2021 ~ 2022",
+            "description": "",
+            "image": "project12.png",
+            "url": []
+        },
+        {
+            "name": "M사 교육 App (유지보수)",
+            "date": "2022",
+            "description": "",
+            "image": "project13.png",
+            "url": []
+        }
+    ]
+}
