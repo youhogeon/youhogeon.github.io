@@ -31,7 +31,7 @@
         },
         data(this: any) {
             return {
-                image: new URL(`../../assets/projects/${this.data.image}`, import.meta.url).href,
+                image: this.data.image.includes('https://') ? this.data.image : new URL(`../../assets/projects/${this.data.image}`, import.meta.url).href,
             }
         },
     }
