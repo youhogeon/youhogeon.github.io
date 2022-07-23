@@ -3,37 +3,37 @@
         {
             "name": "이메일",
             "url": "mailto:me@youhogeon.com",
-            "icon": "src/assets/links/email.png",
+            "icon": "email.png",
             "color": "#38a1f2"
         },
         {
             "name": "카카오톡",
             "url": "https://namecard.kakao.com/works",
-            "icon": "src/assets/links/kakaotalk.png",
+            "icon": "kakaotalk.png",
             "color": "#f4be04"
         },
         {
             "name": "블로그",
             "url": "https://blog.youhogeon.com",
-            "icon": "src/assets/links/blog.png",
+            "icon": "blog.png",
             "color": "#44bf88"
         },
         {
             "name": "GitHub",
             "url": "https://github.com/youhogeon",
-            "icon": "src/assets/links/github.png",
+            "icon": "github.png",
             "color": "#333"
         },
         {
             "name": "StackOverflow",
             "url": "https://stackoverflow.com/users/5863348/youhogeon",
-            "icon": "src/assets/links/stackoverflow.png",
+            "icon": "stackoverflow.png",
             "color": "#f48024"
         },
         {
             "name": "solved.ac",
             "url": "https://solved.ac/profile/youhogeon",
-            "icon": "src/assets/links/solvedac.png",
+            "icon": "solvedac.png",
             "color": "#17ce3a"
         }
     ]

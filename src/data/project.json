@@ -3,93 +3,107 @@
         {
             "name": "커뮤니티 사이트",
             "date": "2010 ~",
-            "description": "",
-            "image": "project1.png",
-            "url": ["http://cloverworld.net"]
+            "description": "XpressEngine을 이용해 운영했던 커뮤니티 사이트로, 처음으로 서비스한 웹 서비스.\n이후 기능이 모듈화된 커뮤니티 엔진을 직접 구현하여 마이그레이션함.",
+            "image": "1.png",
+            "url": [],
+            "stack": ["HTML5", "jQuery", "PHP", "SQL"]
         },
         {
             "name": "단축 주소(Short URL) 허브",
             "date": "2010 ~ 2014",
-            "description": "",
-            "image": "project2.png",
-            "url": []
+            "description": "자체 도메인을 이용해 단축 주소 서비스를 제공함. 이후 타사의 API를 사용해 20개의 도메인을 지원하는 단축 주소 허브로 확장시킴.\n본 서비스를 이용해 스팸 및 악성코드 배포하는 경우가 많아 서비스를 중단함.",
+            "image": "2.png",
+            "url": [],
+            "stack": ["HTML5", "jQuery", "PHP", "SQL"]
         },
         {
             "name": "유튜브 플레이리스트",
             "date": "2012",
-            "description": "",
-            "image": "project3.png",
-            "url": []
+            "description": "초기 Youtube playlist 기능의 불편함을 해소하고자, Youtube API를 이용해 자체 플레이리스트 서비스 개발. 뮤직비디오를 플레이리스트에 넣고 음악을 재생할 수 있도록 함.",
+            "image": "0.png",
+            "url": [],
+            "stack": ["HTML5", "jQuery", "PHP", "SQL", "Youtube API"]
         },
         {
             "name": "모의 주식투자",
             "date": "2012 ~ 2014",
-            "description": "",
-            "image": "project4.png",
-            "url": []
+            "description": "금융에 관심이 많았으나, 당시 미성년자로 증권사 가입을 하지 못해 모의 주식투자 서비스 개발.\n웹 크롤링을 통해 실시간 금융 데이터를 수집해 서비스함.",
+            "image": "4.png",
+            "url": [],
+            "stack": ["HTML5", "jQuery", "PHP", "SQL"]
         },
         {
             "name": "국민대학교 법률상담 시스템",
             "date": "2016",
-            "description": "",
-            "image": "project5.png",
-            "url": []
+            "description": "국민대학교 법률상담센터에서 사용할 상담 시스템 개발·납품. 고객의 상담에 대해 관리자가 답변하고 관리자의 답변 실적을 pdf 보고서로 생성해 포트폴리오로 사용할 수 있도록 함.",
+            "image": "5.png",
+            "url": [],
+            "stack": ["HTML5", "jQuery", "PHP", "SQL"]
         },
         {
             "name": "L사 공장장비관리 App",
             "date": "2016",
-            "description": "",
-            "image": "project6.png",
-            "url": []
+            "description": "공장에 납품된 장비들을 관리할 수 있도록 애플리케이션 개발·납품. HTML5의 LocalStorage, Cache등을 이용해 오프라인에서도 동작하는 웹 앱 형태로 구현해 테블릿 기기에 빌트인-앱으로 배포함.",
+            "image": "6.png",
+            "url": [],
+            "stack": ["HTML5", "jQuery", "PHP", "SQL", "Java", "Android"]
         },
         {
             "name": "JJAL.DOWNLOAD",
             "date": "2016",
-            "description": "",
-            "image": "project7.png",
-            "url": []
+            "description": "당시 유행했던 이미지(짤)를 커스터마이징 할 수 있는 서비스를 공동 개발·운영.\n오픈 8시간만에 생성 이미지 수가 10만건을 넘어감. 부하를 분산하고 트래픽을 경량화 하기 위한 기법들을 적용하여 대규모 서비스를 관리·운영하는 경험을 함.\n인터넷 언론에 보도됨.",
+            "image": "7.png",
+            "url": ["http://jjal.download", "http://www.wikitree.co.kr/main/news_view.php?id=247357"],
+            "stack": ["HTML5", "jQuery", "PHP", "GD"]
         },
         {
             "name": "딥러닝을 활용한 로보어드바이저",
             "date": "2020",
-            "description": "",
-            "image": "project8.png",
-            "url": []
+            "description": "과학기술정보통신부(한국정보산업연합회)의 “소프트웨어 마에스트로” 과정을 연수하며 딥러닝을 활용한 로보어드바이저 솔루션을 개발함. 수천만건의 금융 데이터를 가지고 인공지능을 활용해 주가의 흐름을 분석하고 매매하는 로보어드바이저를 기존 퀀트 투자 알고리즘의 단점을 극복하기 위해 인공지능을 도입함.",
+            "image": "8.png",
+            "url": [],
+            "stack": ["Python", "AWS", "AI"]
         },
         {
             "name": "주식회사 리무빙컴퍼니",
             "date": "2020 ~ 2021",
-            "description": "",
-            "image": "project9.png",
-            "url": []
+            "description": "장애인·시니어를 위한 방문 운동 스타트업에서 FE, BE, AWS Infra, DB등을 담당하며, 고객 관리 및 고객용 시스템을 구축·개발함. 고객 대상이 스크린리더를 사용하는 경우가 많아, 직접 스크린 리더를 사용하며 웹 접근성을 해치지 않도록 함.",
+            "image": "9.png",
+            "url": ["https://removing.co.kr/prev"],
+            "stack": ["HTML5", "jQuery", "Node.js", "PHP", "Laravel", "SQL", "Docker"]
         },
         {
             "name": "T연예기획사 서비스",
             "date": "2021",
-            "description": "",
-            "image": "project10.png",
-            "url": []
+            "description": "소속사 연애인의 마스코트를 커스터마이징 할 수 있는 팬 전용 서비스 개발·납품.",
+            "image": "10.png",
+            "url": [],
+            "stack": ["HTML5", "jQuery", "PHP", "GD", "SQL"]
         },
         {
             "name": "U사 회원관리 서비스",
             "date": "2021",
-            "description": "",
-            "image": "project11.png",
-            "url": []
+            "description": "업체의 고객 관리 시스템과 고객용 예약·후기 시스템을 개발·납품. 장애를 가진 고객이 많아 웹 접근성을 더욱 신경써서 개발함.",
+            "image": "11.png",
+            "url": [],
+            "stack": ["HTML5", "jQuery", "PHP", "Laravel", "SQL"]
         },
         {
             "name": "L사 연구장비 제어시스템",
             "date": "2021 ~ 2022",
-            "description": "",
-            "image": "project12.png",
-            "url": []
+            "description": "배터리 연구를 위한 장비와 연동하여 해당 장비를 제어하는 시스템을 개발·납품. 클라이언트(Vue.js)에서 서버(Spring)로 요청을 보내면 내부 처리 후 UDP 통신을 통해 장비 소프트웨어로 데이터 송신하고 실험 결과를 수신해 출력함.",
+            "image": "12.png",
+            "url": [],
+            "stack": ["Vue.js", "Java", "Spring", "SQL"]
         },
         {
             "name": "M사 교육 App (유지보수)",
             "date": "2022",
-            "description": "",
-            "image": "project13.png",
-            "url": []
+            "description": "학생들을 위한 교육 애플리케이션의 유지보수를 담당함.",
+            "image": "13.png",
+            "url": [],
+            "stack": ["HTML5", "React", "React Native", "Node.js", "AWS"]
         }
-    ]
+    ],
+    "encrypted": "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"
 }

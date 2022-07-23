@@ -1,6 +1,6 @@
 <template>
     <Card class="group cursor-pointer flex flex-col items-center px-0 py-0 md:px-0 md:py-0" :aria-labelledby="id" white>
-        <img class="w-full rounded-t-md" src="https://place-hold.it/500x300" alt="">
+        <img class="w-full rounded-t-md" :src="data.image.includes('https://')?data.image:image" alt="프로젝트 이미지">
 
         <div class="p-6 md:p-8 text-center">
             <h3 :id="id" class="text-2xl font-bold tracking-wider">{{ data.name }}</h3>
@@ -11,18 +11,19 @@
 
 <script lang="ts">
     import Card from '../Card.vue'
-    import * as _ from "lodash"
+    import * as _ from 'lodash'
 
     export default {
         components: {
             Card,
         },
         props: {
-            data: Object
+            data: Object,
         },
-        data() {
+        data(this: any) {
             return {
                 id: _.uniqueId('id'),
+                image: new URL(`../../assets/projects/${this.data.image}`, import.meta.url).href,
             }
         },
     }

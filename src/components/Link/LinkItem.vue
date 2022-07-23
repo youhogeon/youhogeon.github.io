@@ -1,7 +1,7 @@
 <template>
     <Card class="cursor-pointer flex flex-col items-center group" :aria-labelledby="id" @click.prevent="openURL" role="button" fixed>
         <div class="p-8 shrink-0 rounded w-28 h-28 m-2 group-hover:w-32 group-hover:h-32 group-hover:m-0 group-hover:p-7 group-hover:rounded-lg ease-in transition-size duration-200" :style="{ 'background-color': data.color }">
-            <img class="w-full" :src="data.icon" alt="">
+            <img class="w-full" :src="image" alt="">
         </div>
 
         <h3 :id="id" class="text-lg mt-3">
@@ -28,9 +28,10 @@
                 }.bind(this))
             }
         },
-        data() {
+        data(this: any) {
             return {
                 id: _.uniqueId('id'),
+                image: new URL(`../../assets/links/${this.data.icon}`, import.meta.url).href,
             }
         },
     }
