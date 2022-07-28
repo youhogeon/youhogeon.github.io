@@ -1,9 +1,9 @@
 {
     "profile": {
         "name": "유호건",
-        "company": "대기업 대표",
+        "company": "프리랜서 개발자",
         "email": "me@youhogeon.com",
-        "phone": "010-2131-1470"
+        "phone": ""
     },
     "information": [
         {
@@ -65,11 +65,11 @@
             "question": "자격증",
             "data": [
                 [
-                    "AWS Certified Solutions Architect Associate (2022.07)",
-                    "정보기기운용기능사 (2019.05)",
-                    "정보처리기능사 (2017. 12)",
-                    "워드프로세서 (2019.03)",
-                    "컴퓨터활용능력 1급 (2017.02)"
+                    "AWS Certified Solutions Architect Associate (22.07)",
+                    "정보기기운용기능사 (19.05)",
+                    "정보처리기능사 (17.12)",
+                    "워드프로세서 (19.03)",
+                    "컴퓨터활용능력 1급 (17.02)"
                 ],
                 [
                     "자동차운전면허증 (1종대형, 특수 소형견인, 2종보통)",
