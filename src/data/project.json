@@ -117,7 +117,7 @@
             "date": "2023",
             "description": "처음에는 ChatGPT 봇으로 기획하였으나, 서비스를 확장하여 다양한 기능을 추가할 수 있는 범용 봇으로 개선함. Spring을 이용한 처리 서버와, 스마트폰에서 동작중인 카카오톡 메시지 파싱 클라이언트와의 UDP통신을 통해 카카오톡 메시지 송수신.",
             "image": "0.png",
-            "url": [],
+            "url": ["https://github.com/youhogeon/kakao-bot", "https://bit.ly/yammabot"],
             "stack": ["Spring", "Redis", "Java"]
         }
     ],
