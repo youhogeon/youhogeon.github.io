@@ -33,17 +33,17 @@
             "stack": ["HTML5", "jQuery", "PHP", "SQL"]
         },
         {
-            "name": "법률상담 시스템",
+            "name": "K대학 법률상담 시스템",
             "date": "2016",
-            "description": "대학교 법률상담센터에서 근무중이던 친구에게 도움을 주기 위해 상담 시스템을 개발함. 고객의 상담에 대해 관리자가 답변하고 관리자의 답변 실적을 pdf 보고서로 생성해 포트폴리오로 사용할 수 있도록 함.",
+            "description": "대학교 법률상담센터에서 사용할 상담 시스템 개발·납품. 고객의 상담에 대해 관리자가 답변하고 관리자의 답변 실적을 pdf 보고서로 생성해 포트폴리오로 사용할 수 있도록 함.",
             "image": "5.png",
             "url": [],
             "stack": ["HTML5", "jQuery", "PHP", "SQL"]
         },
         {
-            "name": "공장장비관리 App",
+            "name": "L사 공장장비관리 App",
             "date": "2016",
-            "description": "공장에 납품된 장비들을 관리할 수 있도록 애플리케이션 개발. HTML5의 LocalStorage, Cache등을 이용해 오프라인에서도 동작하는 웹 앱 형태로 구현해 테블릿 기기에 빌트인-앱으로 배포함.",
+            "description": "공장에 납품된 장비들을 관리할 수 있도록 애플리케이션 개발·납품. HTML5의 LocalStorage, Cache등을 이용해 오프라인에서도 동작하는 웹 앱 형태로 구현해 테블릿 기기에 빌트인-앱으로 배포함.",
             "image": "6.png",
             "url": [],
             "stack": ["HTML5", "jQuery", "PHP", "SQL", "Java", "Android"]
@@ -65,15 +65,31 @@
             "stack": ["Python", "AWS", "AI"]
         },
         {
-            "name": "회원관리 서비스",
+            "name": "R사 시스템 구축",
+            "date": "2020 ~ 2021",
+            "description": "장애인·시니어를 위한 방문 운동 스타트업에서 FE, BE, AWS Infra, DB등을 담당하며, 고객 관리 및 고객용 시스템을 구축·개발함. 고객 대상이 스크린리더를 사용하는 경우가 많아, 직접 스크린 리더를 사용하며 웹 접근성을 해치지 않도록 함.",
+            "image": "9.png",
+            "url": ["https://removing.co.kr/prev"],
+            "stack": ["HTML5", "jQuery", "Node.js", "PHP", "Laravel", "SQL", "Docker"]
+        },
+        {
+            "name": "T연예기획사 서비스",
             "date": "2021",
-            "description": "고객 관리 시스템과 고객용 예약·후기 시스템을 개발함. 장애를 가진 고객이 많아 웹 접근성을 더욱 신경써서 개발함.",
+            "description": "소속사 연애인의 마스코트를 커스터마이징 할 수 있는 팬 전용 서비스 개발·납품.",
+            "image": "10.png",
+            "url": [],
+            "stack": ["HTML5", "jQuery", "PHP", "GD", "SQL"]
+        },
+        {
+            "name": "U사 회원관리 서비스",
+            "date": "2021",
+            "description": "업체의 고객 관리 시스템과 고객용 예약·후기 시스템을 개발·납품. 장애를 가진 고객이 많아 웹 접근성을 더욱 신경써서 개발함.",
             "image": "11.png",
             "url": [],
             "stack": ["HTML5", "jQuery", "PHP", "Laravel", "SQL"]
         },
         {
-            "name": "연구장비 제어시스템",
+            "name": "L사 연구장비 제어시스템",
             "date": "2021 ~ 2022",
             "description": "배터리 연구를 위한 장비와 연동하여 해당 장비를 제어하는 시스템을 개발. 클라이언트(Vue.js)에서 서버(Spring)로 요청을 보내면 내부 처리 후 UDP 통신을 통해 장비 소프트웨어로 데이터 송신하고 실험 결과를 수신해 출력함.",
             "image": "12.png",
@@ -81,9 +97,17 @@
             "stack": ["Vue.js", "Java", "Spring", "SQL"]
         },
         {
+            "name": "M사 교육 App (유지보수)",
+            "date": "2022",
+            "description": "학생들을 위한 교육 애플리케이션의 유지보수를 담당함.",
+            "image": "13.png",
+            "url": [],
+            "stack": ["HTML5", "React", "React Native", "Node.js", "AWS"]
+        },
+        {
             "name": "IT DumpTruck",
             "date": "2022",
-            "description": "AWS Certified 시험에 응시하며 모았던 자료들을 공유하기 위한 사이트. BE와 AWS Infra를 주로 담당함.\nAWS를 사용해 클라우드 서버리스 구조(Lambda + API GW + DynamoDB)로 백엔드를 설계함.",
+            "description": "AWS Certified 시험에 응시하며 모았던 자료들을 공유하기 위해 사이트. BE와 AWS Infra를 주로 담당함.\nAWS를 사용해 클라우드 서버리스 구조(Lambda + API GW + DynamoDB)로 백엔드를 설계함.",
             "image": "14.png",
             "url": ["https://dumps.kr"],
             "stack": ["React", "Node.js", "AWS"]
