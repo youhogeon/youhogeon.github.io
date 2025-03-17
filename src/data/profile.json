@@ -40,23 +40,22 @@
             "question": "기술 스택",
             "data": [
                 [
-                    "HTML5, CSS3",
-                    "Javascript (ES6), jQuery",
-                    "Vue.js"
+                    "HTML / CSS / JS",
+                    "React, Vue.js"
                 ],
                 [
+                    "★ Java, Spring",
+                    "★ Python",
                     "PHP, Laravel",
-                    "Node.js",
-                    "Java, Spring"
+                    "Go"
                 ],
                 [
-                    "SQL (Mysql, MariaDB)",
+                    "SQL",
                     "No-SQL (MongoDB, Redis)"
                 ],
                 [
                     "Server (Windows, Linux)",
-                    "Cloud Architecture (AWS)",
-                    "Docker"
+                    "Cloud Architecture (AWS)"
                 ]
             ]
         },
